@@ -1,0 +1,19 @@
+{
+    "name": "fieldofcode/scss-4-wp",
+    "description": "SCSS Compiler for WordPress Themes",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Scss4Wp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Field Of Code",
+            "email": "fieldofcode@gmail.com"
+        }
+    ],
+    "require": {
+        "scssphp/scssphp": "^1.11.0"
+    }
+}
